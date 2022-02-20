@@ -41,6 +41,7 @@ module.exports = {
     }],
     "import/no-extraneous-dependencies": "off",
     "react/function-component-definition": "off",
-    "react/jsx-props-no-spreading": "off"
+    "react/jsx-props-no-spreading": "off",
+    "jsx-a11y/anchor-is-valid": "off"
   }
 };

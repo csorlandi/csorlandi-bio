@@ -6,6 +6,14 @@
   flex-direction: column;
 }
 
+.header .imageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #0076FF;
+  border-radius: 50%;
+}
+
 .header img {
   border-radius: 50%;
 }
@@ -16,7 +24,83 @@
 }
 
 .header p {
+  font-family: 'Inter';
   margin-top: 0.5rem;
   font-size: 1.25rem;
   color: var(--grey);
+}
+
+.main section {
+  display: flex;
+  justify-items: center;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+.main section a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  flex-basis: 12.5rem;
+  flex-grow: 1;
+  min-height: 6.25rem;
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  border: 2px solid var(--background-main);
+  text-align: center;
+  font-size: 1.25rem;
+  color: var(--white);
+  font-family: 'Lexend';
+
+  transition: border-color ease 0.3s;
+}
+
+.main section a:hover {
+  border-color: var(--white);
+}
+
+.linkedinContainer {
+  background: rgb(111, 139, 231);
+  background: linear-gradient(
+    90deg,
+    rgba(111, 139, 231, 1) 0%,
+    rgba(47, 41, 157, 1) 100%
+  );
+}
+
+.githubContainer {
+  background: #202225;
+  background: linear-gradient(
+    261.65deg,
+    #202225 0%,
+    #2d2f31 100%
+  );
+}
+
+.twitterContainer {
+  background: rgb(29 161 242);
+}
+
+.youtubeContainer {
+  background: rgba(255 , 0, 0, 0.85);
+}
+
+.instagramContainer {
+  background: #C13584;
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+
+.twitchContainer {
+  background: #9a56fd;
+  background: linear-gradient(58deg, #722cd8 8%, #9a56fd 98%)
 }
