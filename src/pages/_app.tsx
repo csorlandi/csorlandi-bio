@@ -1,3 +1,4 @@
+import '../styles/globals.css';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 
@@ -5,9 +6,9 @@ function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>NextJS Basic Boilerplate</title>
+        <title>Bio | CsOrlandi</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/img/icon-512.png" />
+        <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/img/icon-512.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta
@@ -15,16 +16,16 @@ function App({ Component, pageProps }: AppProps) {
           content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
         />
 
-        <meta name="application-name" content="PWA App" />
+        <meta name="application-name" content="CsOrlandi Bio" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="PWA App" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="msapplication-config" content="/icons/browserconfig.xml" />
-        <meta name="msapplication-TileColor" content="#2B5797" />
+        <meta name="msapplication-TileColor" content="#fefbfb" />
         <meta name="msapplication-tap-highlight" content="no" />
-        <meta name="theme-color" content="#000000" />
+        <meta name="theme-color" content="#0e091b" />
 
         <link rel="apple-touch-icon" href="/icons/touch-icon-iphone.png" />
         <link
@@ -60,26 +61,22 @@ function App({ Component, pageProps }: AppProps) {
           href="/icons/safari-pinned-tab.svg"
           color="#5bbad5"
         />
-        <link rel="icon" href="/favicon.ico" />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
-        />
 
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:url" content="https://yourdomain.com" />
-        <meta name="twitter:title" content="PWA App" />
+        <meta name="twitter:url" content="https://csorlandi.dev" />
+        <meta name="twitter:title" content="CsOrlandi Bio" />
         <meta name="twitter:description" content="Best PWA App in the world" />
         <meta
           name="twitter:image"
           content="https://yourdomain.com/icons/android-chrome-192x192.png"
         />
-        <meta name="twitter:creator" content="@DavidWShadow" />
+        <meta name="twitter:creator" content="@csorlandi" />
+
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="PWA App" />
+        <meta property="og:title" content="CsOrlandi Bio" />
         <meta property="og:description" content="Best PWA App in the world" />
-        <meta property="og:site_name" content="PWA App" />
-        <meta property="og:url" content="https://yourdomain.com" />
+        <meta property="og:site_name" content="CsOrlandi Bio" />
+        <meta property="og:url" content="https://csorlandi.dev" />
         <meta
           property="og:image"
           content="https://yourdomain.com/icons/apple-touch-icon.png"
