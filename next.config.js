@@ -9,6 +9,9 @@ const nextConfig = {
     dest: 'public',
     disable: !isProduction,
   },
+  images: {
+    domains: ['github.com']
+  },
 }
 
 module.exports = withPWA(nextConfig);
