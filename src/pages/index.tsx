@@ -8,7 +8,7 @@ function Home() {
       <header className={styles.header}>
         <div className={styles.imageWrapper}>
           <Image
-            src="/profile.jpeg"
+            src="/profile.png"
             alt="Foto Claudio Orlandi"
             width={175}
             height={175}
